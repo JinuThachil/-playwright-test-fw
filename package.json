@@ -12,7 +12,7 @@
   "author": "JinuThachil",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "latest",
-    "playwright": "latest"
+    "@playwright/test": "^1.35.0",
+    "playwright": "^1.35.0"
   }
 }
