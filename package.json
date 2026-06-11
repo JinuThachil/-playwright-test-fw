@@ -6,17 +6,13 @@
   "scripts": {
     "test": "playwright test",
     "test:headed": "playwright test --headed",
-    "test:debug": "playwright test --debug",
-    "youtube-test": "node tests/youtube-tags.test.js"
+    "test:debug": "playwright test --debug"
   },
   "keywords": ["playwright", "automation", "testing"],
   "author": "JinuThachil",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.40.0",
-    "playwright": "^1.40.0"
-  },
-  "dependencies": {
-    "dotenv": "^16.3.1"
+    "@playwright/test": "latest",
+    "playwright": "latest"
   }
 }
